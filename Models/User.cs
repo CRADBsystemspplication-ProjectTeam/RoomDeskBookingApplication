@@ -14,10 +14,12 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
 
         [Required]
         [StringLength(50)]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "First name must contain only letters.")]
         public string FirstName { get; set; }
 
         [Required]
         [StringLength(50)]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Last name must contain only letters.")]
         public string LastName { get; set; }
 
         [Required]
@@ -26,13 +28,15 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(15)]
-        [Phone]
+        [StringLength(10, MinimumLength = 10)]
+        [RegularExpression(@"^[6-9]\d{9}$", ErrorMessage = "Phone number must be 10 digits and start with 6,7,8, or 9.")]
         public string PhoneNumber { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string PasswordHash { get; set; }
+        public byte[] PasswordHash { get; set; } = null!;
+
+        [Required]
+        public byte[] PasswordSalt { get; set; } = null!;
 
         [Required]
         public UserRole Role { get; set; } = UserRole.User;
@@ -56,13 +60,14 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
 
         // Navigation Properties
         [ForeignKey("LocationId")]
-        public Location Location { get; set; }
+        public Location? Location { get; set; }
 
         [ForeignKey("DepartmentId")]
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
 
         public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
         public ICollection<UserNotification> Notifications { get; set; } = new List<UserNotification>();
-        public UserBookingStats BookingStats { get; set; }
+        public UserBookingStats BookingStats { get; set; } = null!;
+        public ICollection<UserOtpVerification> OtpVerifications { get; set; } = new List<UserOtpVerification>();
     }
 }

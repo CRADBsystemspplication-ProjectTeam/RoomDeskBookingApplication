@@ -1,6 +1,5 @@
 ﻿using ConferenceRoomAndDeskBookingApplication.Models;
 using Microsoft.EntityFrameworkCore;
-using ConferenceRoomAndDeskBookingApplication.Models;
 
 namespace ConferenceRoomAndDeskBookingApplication.Data
 {
@@ -14,6 +13,9 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
         // User Management
         public DbSet<User> Users { get; set; }
         public DbSet<Department> Departments { get; set; }
+
+        // OTP Management
+        public DbSet<UserOtpVerification> UserOtpVerifications { get; set; }
 
         // Location Hierarchy
         public DbSet<Location> Locations { get; set; }
@@ -75,6 +77,19 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
                     .WithOne(s => s.User)
                     .HasForeignKey<UserBookingStats>(s => s.UserId)
                     .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            // ========================================
+            // OPT password reset
+            // ========================================
+            modelBuilder.Entity<UserOtpVerification>(entity =>
+            {
+                entity.HasOne(o => o.User)
+                      .WithMany(u => u.OtpVerifications)
+                      .HasForeignKey(o => o.UserId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasIndex(o => new { o.UserId, o.IsUsed });
             });
 
             // ========================================
