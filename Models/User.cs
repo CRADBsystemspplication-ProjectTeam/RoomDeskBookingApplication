@@ -67,7 +67,6 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
 
         public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
         public ICollection<UserNotification> Notifications { get; set; } = new List<UserNotification>();
-        public UserBookingStats BookingStats { get; set; } = null!;
         public ICollection<UserOtpVerification> OtpVerifications { get; set; } = new List<UserOtpVerification>();
     }
 }
