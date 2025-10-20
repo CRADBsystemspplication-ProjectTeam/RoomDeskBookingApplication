@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConferenceRoomAndDeskBookingApplication.Models
@@ -11,12 +12,12 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
         [Required]
         public int BookingId { get; set; }
 
-        [Required]
-        public DateTime CheckInTime { get; set; }
+        public DateTime? CheckInTime { get; set; }
 
         public DateTime? CheckOutTime { get; set; }
 
-        // Navigation Properties
+        public TimeSpan? ActualDuration { get; set; }
+
         [ForeignKey("BookingId")]
         public Booking Booking { get; set; }
     }

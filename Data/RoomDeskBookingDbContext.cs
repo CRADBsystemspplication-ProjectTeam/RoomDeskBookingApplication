@@ -38,8 +38,6 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
         public DbSet<BroadcastNotification> BroadcastNotifications { get; set; }
         public DbSet<UserNotification> UserNotifications { get; set; }
 
-        // Analytics & Stats
-        public DbSet<UserBookingStats> UserBookingStats { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -71,11 +69,6 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
                 entity.HasMany(u => u.Notifications)
                     .WithOne(n => n.User)
                     .HasForeignKey(n => n.UserId)
-                    .OnDelete(DeleteBehavior.Cascade);
-
-                entity.HasOne(u => u.BookingStats)
-                    .WithOne(s => s.User)
-                    .HasForeignKey<UserBookingStats>(s => s.UserId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
 
@@ -218,7 +211,7 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
             modelBuilder.Entity<Booking>(entity =>
             {
                 entity.HasOne(b => b.User)
-                    .WithMany(u => u.Bookings)
+                    .WithMany()
                     .HasForeignKey(b => b.UserId)
                     .OnDelete(DeleteBehavior.Restrict);
 
@@ -232,15 +225,9 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
                     .HasForeignKey<BookingCheckIn>(c => c.BookingId)
                     .OnDelete(DeleteBehavior.Cascade);
 
-                entity.HasMany(b => b.Notifications)
-                    .WithOne(n => n.Booking)
-                    .HasForeignKey(n => n.BookingId)
-                    .OnDelete(DeleteBehavior.Cascade);
-
-                // Indexes for quick lookup
                 entity.HasIndex(b => b.Date);
-                entity.HasIndex(b => b.Status);
-                entity.HasIndex(b => new { b.ResourceId, b.Date, b.Status });
+                entity.HasIndex(b => b.SessionStatus);
+                entity.HasIndex(b => new { b.ResourceId, b.Date, b.SessionStatus });
             });
 
             // ========================================
@@ -329,20 +316,7 @@ namespace ConferenceRoomAndDeskBookingApplication.Data
                 entity.HasIndex(n => n.CreatedAt);
             });
 
-            // ========================================
-            // ANALYTICS & STATS
-            // ========================================
-
-            // UserBookingStats
-            modelBuilder.Entity<UserBookingStats>(entity =>
-            {
-                entity.HasOne(s => s.User)
-                    .WithOne(u => u.BookingStats)
-                    .HasForeignKey<UserBookingStats>(s => s.UserId)
-                    .OnDelete(DeleteBehavior.Cascade);
-
-                entity.HasIndex(s => s.UserId).IsUnique();
-            });
+ 
         }
     }
 }

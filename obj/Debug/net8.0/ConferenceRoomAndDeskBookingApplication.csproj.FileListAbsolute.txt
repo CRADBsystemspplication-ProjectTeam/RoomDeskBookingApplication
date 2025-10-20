@@ -175,3 +175,15 @@ D:\Repos\ConferenceRoomAndDeskBookingApplication\ConferenceRoomAndDeskBookingApp
 D:\Repos\ConferenceRoomAndDeskBookingApplication\ConferenceRoomAndDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.pdb
 D:\Repos\ConferenceRoomAndDeskBookingApplication\ConferenceRoomAndDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.genruntimeconfig.cache
 D:\Repos\ConferenceRoomAndDeskBookingApplication\ConferenceRoomAndDeskBookingApplication\obj\Debug\net8.0\ref\ConferenceRoomAndDeskBookingApplication.dll
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.csproj.AssemblyReference.cache
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.AssemblyInfoInputs.cache
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.AssemblyInfo.cs
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.csproj.CoreCompileInputs.cache
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.sourcelink.json
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.dll
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\refint\ConferenceRoomAndDeskBookingApplication.dll
+C:\Users\layas\OneDrive\Documents\kanini\conf_proj\RoomDeskBookingApplication\obj\Debug\net8.0\ConferenceRoomAndDeskBookingApplication.pdb

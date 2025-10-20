@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using ConferenceRoomAndDeskBookingApplication.Enums;
 
 namespace ConferenceRoomAndDeskBookingApplication.Models
 {
@@ -18,11 +20,8 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
         public ResourceType ResourceType { get; set; }
 
         [Required]
-        [StringLength(200)]
+        [MaxLength(200)]
         public string MeetingName { get; set; }
-
-        [StringLength(500)]
-        public string? Purpose { get; set; }
 
         [Required]
         public DateTime Date { get; set; }
@@ -33,41 +32,39 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
         [Required]
         public TimeSpan EndTime { get; set; }
 
+        public int? ParticipantCount { get; set; }
+
         [Required]
-        public BookingStatus Status { get; set; } = BookingStatus.Confirmed;
+        public SessionStatus SessionStatus { get; set; } = SessionStatus.Reserved;
 
-        // Check-in/Check-out tracking
-        public DateTime? ActualCheckInTime { get; set; }
+        [Required]
+        public bool EntryRemainders { get; set; } = false;
 
-        public DateTime? ActualCheckOutTime { get; set; }
+        [Required]
+        public bool ExitRemainder { get; set; } = false;
 
-        // Reminder flags
+        [Required]
         public bool EntryReminderSent { get; set; } = false;
 
-        public bool CheckInReminderSent { get; set; } = false;
-
+        [Required]
         public bool ExitReminderSent { get; set; } = false;
 
-        public bool OverdueReminderSent { get; set; } = false;
+        [Required]
+        public bool OverdueRemainderSent { get; set; } = false;
 
-        // Cancellation
-        [StringLength(500)]
+        [MaxLength(500)]
         public string? CancellationReason { get; set; }
 
         public DateTime? CancelledAt { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
-
-        // Navigation Properties
         [ForeignKey("UserId")]
         public User User { get; set; }
 
         [ForeignKey("ResourceId")]
         public Resource Resource { get; set; }
 
-        public BookingCheckIn CheckIn { get; set; }
-        public ICollection<UserNotification> Notifications { get; set; } = new List<UserNotification>();
+        public BookingCheckIn? CheckIn { get; set; }
+
+        public ICollection<UserNotification> Notifications { get; set; }
     }
 }

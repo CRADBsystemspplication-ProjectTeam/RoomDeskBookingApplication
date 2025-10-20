@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
-    "\\Models"
+    "\\Enums"
   ],
-  "SelectedNode": "\\Data\\RoomDeskBookingDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
