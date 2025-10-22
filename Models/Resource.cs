@@ -27,6 +27,12 @@ namespace ConferenceRoomAndDeskBookingApplication.Models
         public int? MaxBookingDuration { get; set; } // in minutes
 
         public bool IsActive { get; set; } = true;
+        public DateTime? BlockedFrom { get; set; }
+
+        public DateTime? BlockedUntil { get; set; }
+
+        [MaxLength(500)]
+        public string? BlockReason { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

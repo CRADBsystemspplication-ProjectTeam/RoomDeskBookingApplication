@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\irepositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\irepositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\irepositories\\ibookingcheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\irepositories\\ibookingcheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:data\\roomdeskbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\irepositories\\ibookingcheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\irepositories\\ibookingcheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\irepositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\irepositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\iservices\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\interfaces\\iservices\\ibookingcheckinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:interfaces\\iservices\\ibookingcheckinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|solutionrelative:models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63E14324-008B-9E76-18D1-56043761421C}|ConferenceRoomAndDeskBookingApplication.csproj|c:\\users\\layas\\onedrive\\documents\\kanini\\conf_proj\\roomdeskbookingapplication\\models\\bookingcheckin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,76 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IUserService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IServices\\IUserService.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IUserService.cs",
-              "RelativeToolTip": "Interfaces\\IServices\\IUserService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBYAAAANAAAAAAAAAA==",
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T08:09:50.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IServices\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IAuthService.cs",
-              "RelativeToolTip": "Interfaces\\IServices\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T08:09:43.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserRepository.cs",
-              "RelativeToolTip": "Interfaces\\IRepositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T08:09:35.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserOtpVerificationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
-              "RelativeToolTip": "Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T08:09:19.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IServices\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingService.cs",
-              "RelativeToolTip": "Interfaces\\IServices\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:55:08.53Z",
+              "WhenOpened": "2025-10-22T06:01:19.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:55:04.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RoomDeskBookingDbContext.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Data\\RoomDeskBookingDbContext.cs",
               "RelativeDocumentMoniker": "Data\\RoomDeskBookingDbContext.cs",
@@ -147,33 +116,19 @@
               "RelativeToolTip": "Data\\RoomDeskBookingDbContext.cs",
               "ViewState": "AgIAABwBAAAAAAAAAAAAwC0BAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:51:10.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T07:51:10.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Models\\Booking.cs",
               "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Booking.cs",
               "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAiwDsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T06:57:44.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBookingCheckInService.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingCheckInService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IServices\\IBookingCheckInService.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingCheckInService.cs",
-              "RelativeToolTip": "Interfaces\\IServices\\IBookingCheckInService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:55:37.442Z",
               "EditorCaption": ""
             },
             {
@@ -184,27 +139,27 @@
               "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IBookingCheckInRepository.cs",
               "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IBookingCheckInRepository.cs",
               "RelativeToolTip": "Interfaces\\IRepositories\\IBookingCheckInRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T07:54:36.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA4wEQAAABoAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IBookingRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T06:57:34.414Z",
+              "WhenOpened": "2025-10-20T07:53:57.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "SessionStatus.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Enums\\SessionStatus.cs",
               "RelativeDocumentMoniker": "Enums\\SessionStatus.cs",
@@ -217,26 +172,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IBookingRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IBookingRepository.cs",
-              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IBookingRepository.cs",
-              "RelativeToolTip": "Interfaces\\IRepositories\\IBookingRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA0AAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:53:57.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Resource.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Resource.cs",
               "RelativeDocumentMoniker": "Models\\Resource.cs",
               "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\Resource.cs",
               "RelativeToolTip": "Models\\Resource.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T07:50:47.597Z",
               "EditorCaption": ""
@@ -244,6 +186,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IServices\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingService.cs",
+              "RelativeToolTip": "Interfaces\\IServices\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:55:08.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserOtpVerificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepositories\\IUserOtpVerificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:09:19.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:09:35.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IServices\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:09:43.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:09:50.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookingCheckInService.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingCheckInService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IServices\\IBookingCheckInService.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Interfaces\\IServices\\IBookingCheckInService.cs",
+              "RelativeToolTip": "Interfaces\\IServices\\IBookingCheckInService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:55:37.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAA4wEQAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T06:57:34.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BookingCheckIn.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Models\\BookingCheckIn.cs",
               "RelativeDocumentMoniker": "Models\\BookingCheckIn.cs",
@@ -251,12 +277,11 @@
               "RelativeToolTip": "Models\\BookingCheckIn.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:49:51.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T07:49:51.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ResourceType.cs",
               "DocumentMoniker": "C:\\Users\\layas\\OneDrive\\Documents\\kanini\\conf_proj\\RoomDeskBookingApplication\\Enums\\ResourceType.cs",
               "RelativeDocumentMoniker": "Enums\\ResourceType.cs",
@@ -264,8 +289,7 @@
               "RelativeToolTip": "Enums\\ResourceType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T07:48:19.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T07:48:19.759Z"
             }
           ]
         }

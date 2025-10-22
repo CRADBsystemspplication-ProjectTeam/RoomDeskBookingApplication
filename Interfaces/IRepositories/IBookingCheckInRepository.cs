@@ -1,11 +1,9 @@
-﻿using ConferenceRoomAndDeskBookingApplication.Models;
+﻿using ConferenceRoomAndDeskBookingApplication.Interfaces.IRepositories;
+using ConferenceRoomAndDeskBookingApplication.Models;
 
-namespace ConferenceRoomAndDeskBookingApplication.Interfaces.IRepositories
+public interface IBookingCheckInRepository : IRepository<BookingCheckIn>
 {
-    public interface IBookingCheckInRepository
-    {
-        Task<BookingCheckIn> CheckInAsync(int bookingId);
-        Task<BookingCheckIn> CheckOutAsync(int bookingId);
-        Task<BookingCheckIn?> GetCheckInByBookingIdAsync(int bookingId);
-    }
+    Task<BookingCheckIn> CheckInAsync(int bookingId);
+    Task<BookingCheckIn> CheckOutAsync(int bookingId);
+    Task<BookingCheckIn?> GetCheckInByBookingIdAsync(int bookingId);
 }

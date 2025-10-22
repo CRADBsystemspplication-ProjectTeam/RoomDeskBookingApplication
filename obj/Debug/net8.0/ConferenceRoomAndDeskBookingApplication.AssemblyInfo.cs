@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConferenceRoomAndDeskBookingApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c09d7d9d616e31f8dbdc27b069adbea509d79d7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+957cb560f841e0b3d96f9d4669e4a65641c3bea6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConferenceRoomAndDeskBookingApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConferenceRoomAndDeskBookingApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
